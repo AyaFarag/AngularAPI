@@ -1,0 +1,28 @@
+.navbar {
+    background-color:#fff;
+    padding: 10px;
+
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+/*Logo hover */
+.navbar-brand:focus, .navbar-brand:hover{
+    color: #337ab7;
+}
+.navbar-toggle .icon-bar{
+    background-color: #337ab7;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #0073e6;
+    border: 0;
+    color: #d8dbf9;
+    border-radius: 3px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #0073e6;
+    border: 0;
+    color: #d8dbf9;
+    border-radius: 3px;
+}
